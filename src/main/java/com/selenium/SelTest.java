@@ -22,6 +22,13 @@ public class SelTest {
         //WebDriver methods + Class methods
         WebDriver driver = new ChromeDriver();
 
+        //Navigate to URL
+        driver.get("https://choremore.net/login");
+
+        //Get Title
+        System.out.println(driver.getTitle());
+
+        //Get URL
 
 
 
