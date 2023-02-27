@@ -1,2 +1,4 @@
-package com.selenium;public class SelTest {
+package com.selenium;
+
+public class SelTest {
 }
