@@ -23,14 +23,16 @@ public class SelTest {
         WebDriver driver = new ChromeDriver();
 
         //Navigate to URL
-        driver.get("https://choremore.net/login");
+        driver.get("https://google.com");
 
         //Get Title
-        System.out.println(driver.getTitle());
+        System.out.println("This is the title: " + driver.getTitle());
 
         //Get URL
+        System.out.println("This is the URL: " + driver.getCurrentUrl());
 
-
+        //Close Browser
+        driver.close();
 
     }
 
