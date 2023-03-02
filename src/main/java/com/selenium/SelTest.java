@@ -34,6 +34,10 @@ public class SelTest {
         //Close Browser
         driver.close();
 
+        //Quit Browser
+        //Quit vs Close
+        driver.quit();
+
     }
 
 }
