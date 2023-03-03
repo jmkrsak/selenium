@@ -38,6 +38,8 @@ public class SelTest {
         //Quit vs Close
         driver.quit();
 
+        //this is just a test the real code is private
+
     }
 
 }
