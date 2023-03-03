@@ -34,6 +34,12 @@ public class SelTest {
         //Close Browser
         driver.close();
 
+        //Quit Browser
+        //Quit vs Close
+        driver.quit();
+
+        //this is just a test the real code is private
+
     }
 
 }
