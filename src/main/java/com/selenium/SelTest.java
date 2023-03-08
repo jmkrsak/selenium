@@ -23,7 +23,7 @@ public class SelTest {
         WebDriver driver = new ChromeDriver();
 
         //Navigate to URL
-        driver.get("https://google.com");
+        driver.get("https://choremore.net");
 
         //Get Title
         System.out.println("This is the title: " + driver.getTitle());
@@ -32,14 +32,15 @@ public class SelTest {
         System.out.println("This is the URL: " + driver.getCurrentUrl());
 
         //Close Browser
-        driver.close();
+//        driver.close();
 
         //Quit Browser
         //Quit vs Close
-        driver.quit();
+//        driver.quit();
 
         //this is just a test the real code is private
-
+        //issues intergrating with the rest of the code
+        //this is just a test the real code is private
     }
 
 }
